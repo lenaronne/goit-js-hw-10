@@ -12,8 +12,8 @@ form.addEventListener('submit', function (event) {
   const promise = new Promise((resolve, reject) => {
     setTimeout(() => {
       if (userState === 'fulfilled')
-        resolve(Fulfilled promise in ${userDelay}ms);
-      else reject(Rejected promise in ${userDelay}ms);
+        resolve(`Fulfilled promise in ${userDelay}ms`);
+      else reject(`Rejected promise in ${userDelay}ms`);
     }, userDelay);
   });
   promise
