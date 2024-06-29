@@ -1,0 +1,9 @@
+:root {
+  --font-family: 'Montserrat', sans-serif;
+}
+.container {
+  width: 1440px;
+  padding-top: 36px;
+  padding-left: 156px;
+  padding-right: 156px;
+}
